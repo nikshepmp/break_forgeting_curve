@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study To-Do List With Breaking Forgeting Curve !!</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FullCalendar CSS -->
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css' rel='stylesheet' />
+</head>
+<body>
+    <header>
+        <h1>Study To-Do List with Spaced Repeatition</h1>
+    </header>
+
+    <main>
+        <section id="todo-section">
+            <h2>To-Do List</h2>
+            <form id="todo-form">
+                <input type="text" id="task-input" placeholder="Enter your task" required>
+                <button type="submit">Add Task</button>
+            </form>
+            <ul id="todo-list"></ul>
+        </section>
+
+        <section id="calendar-section">
+            <h2>Study Calendar</h2>
+            <div id="calendar"></div>
+        </section>
+
+        <section id="analytics-section">
+            <h2>Progress Analytics</h2>
+            <canvas id="progress-chart" width="400" height="200"></canvas>
+        </section>
+        
+        <!-- Developer About Section -->
+        <section id="developer-about">
+            <h2>About the Developer</h2>
+            <p>
+                Developed by Nikshep M P, Student of Canara Engineering College (Dept. CSBS). 
+                The Idea of Breaking Forgeting Curve is popularly know, but No Application was developed in circa 2021 when Devloper was 
+                preparing for competative exams which reqired Action on Daily Basis, Planning for Month, Dream of Years.
+                This application leverages modern web technologies
+                to help manage study tasks efficiently using spaced repetition principles.
+                The integration of FullCalendar and Chart.js provides an interactive way to
+                track study progress and review schedules. This is developed with the help of ChatGPT by the developer, Because Developer of this Webiste Hate Coding.
+            </p>
+            <p>
+                For more details, visit my <a href="https://www.linkedin.com/in/nikshepmp/" target="_blank">portfolio</a>.
+            </p>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FullCalendar JS -->
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js'></script>
+</body>
+</html>
