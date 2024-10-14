@@ -27,10 +27,14 @@ This project can be a great learning assistant for students preparing for exams 
 ## 📷 Screenshots
 
 ### Dashboard View
-![Dashboard](https://your-screenshot-url.com)
+![Dashboard](https://github.com/nikshepmp/break_forgeting_curve/blob/main/Screenshot%202024-10-14%20153807.png?raw=true)
 
-### Add Topics
-![Add Topics](https://your-screenshot-url.com)
+### Calendar
+![Calender](https://github.com/nikshepmp/break_forgeting_curve/blob/main/Screenshot%202024-10-14%20155435.png?raw=true)
+![Spaced Review](https://github.com/nikshepmp/break_forgeting_curve/blob/main/Screenshot%202024-10-14%20155450.png?raw=true)
+
+### Breaking Forgetting Curve
+![Analatics](https://github.com/nikshepmp/break_forgeting_curve/blob/main/Screenshot%202024-10-14%20155602.png?raw=true)
 
 ## 🧠 How It Works
 
